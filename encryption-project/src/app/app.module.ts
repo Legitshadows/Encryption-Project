@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CipherComponent } from './pages/cipher/cipher.component';
+import { RsaComponent } from './pages/rsa/rsa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CipherComponent } from './pages/cipher/cipher.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    CipherComponent
+    CipherComponent,
+    RsaComponent
   ],
   imports: [
     BrowserModule,
