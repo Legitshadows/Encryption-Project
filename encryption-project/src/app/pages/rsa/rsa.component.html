@@ -1,1 +1,22 @@
-<p>rsa works!</p>
+<div>
+    <h1>Aqui podras introducr texto para encryptar usando el cifrado RSA</h1>
+    <br>
+	<div>
+		<textarea [(ngModel)]="plainText" ></textarea>
+	</div>
+	<ul  class="buttonGroup">
+		<li>
+			<button (click)="encrypt()">
+				<span>Encrypt</span>
+			</button>
+		</li>
+		<li>
+			<button (click)='decrypt()'>
+				<span>Decrypt</span>
+			</button>
+		</li>
+	</ul>
+	<div >
+		<textarea [(ngModel)]="cipherText" ></textarea>
+	</div>
+</div>
