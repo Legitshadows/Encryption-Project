@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CipherComponent } from './pages/cipher/cipher.component';
 import { RsaComponent } from './pages/rsa/rsa.component';
 import { FormsModule } from '@angular/forms';
+import { DesComponent } from './pages/des/des.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     ContactComponent,
     CipherComponent,
-    RsaComponent
+    RsaComponent,
+    DesComponent
   ],
   imports: [
     BrowserModule,
